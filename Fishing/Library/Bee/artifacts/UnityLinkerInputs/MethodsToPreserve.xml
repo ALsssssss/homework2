@@ -1,0 +1,32 @@
+<linker>
+	<assembly fullname="Assembly-CSharp" ignoreIfMissing="1">
+		<type fullname="cameraMove">
+			<method name="setBack"/>
+			<method name="setMove"/>
+		</type>
+		<type fullname="FishingGameManager">
+			<method name="NEXTscene"/>
+		</type>
+		<type fullname="ObjectSpawner">
+			<method name="InitFish"/>
+			<method name="InitFish"/>
+			<method name="InitFish"/>
+		</type>
+		<type fullname="SceneController">
+			<method name="LoadSceneWithProgress"/>
+			<method name="LoadSceneWithProgress"/>
+			<method name="quitGame"/>
+		</type>
+		<type fullname="TurnBasedSystem">
+			<method name="AttackByButton"/>
+			<method name="DefenseButton"/>
+		</type>
+	</assembly>
+	<assembly fullname="UnityEngine.CoreModule" ignoreIfMissing="1">
+		<type fullname="UnityEngine.GameObject">
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+		</type>
+	</assembly>
+</linker>

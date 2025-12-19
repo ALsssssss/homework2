@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0eaea31f90eda040b105d98d64791bb, type: 3}
+  m_Name: littleFish
+  m_EditorClassIdentifier: 
+  itemName: "\u5C0F\u9C7C\u82D7"
+  description: "\u771F\u7684\u5F88\u5C0F"
+  icon: {fileID: 7935238822745532840, guid: afb490f3ae14c4647bc7f6425d7c14ad, type: 3}
+  maxStack: 16
+  food: 1
+  attackBonus: 0
+  defenseBonus: 0
+  isConsumable: 1
